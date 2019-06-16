@@ -1,5 +1,7 @@
 {
   "name": "melbourne-metro",
-  "integrations": {},
+  "integrations": {
+    "cordova": {}
+  },
   "type": "angular"
 }

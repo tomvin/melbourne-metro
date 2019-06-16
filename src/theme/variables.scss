@@ -3,6 +3,13 @@
 
 /** Ionic CSS Variables **/
 :root {
+  /** app **/
+  --app-header-bg: transparent;
+  --app-content-bg: linear-gradient(177.09deg, #FFFFFF 5.46%, rgba(181, 193, 210, .5) 197.74%);
+  --app-panel-bg: #ffffff;
+  --app-text-1: #242841;
+  --app-grey-1: #707C93;
+
   /** primary **/
   --ion-color-primary: #3880ff;
   --ion-color-primary-rgb: 56, 128, 255;

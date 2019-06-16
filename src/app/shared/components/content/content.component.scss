@@ -1,0 +1,29 @@
+:host {
+  background: var(--app-content-bg);
+  display: block;
+  height: 100%;
+  width: 100%;
+  position: relative;
+}
+
+.background {
+  position: absolute;
+  bottom: 0px;
+  min-width: 300%;
+  min-height: 40%;
+  opacity: .2;
+  max-width: unset;
+  margin: 0 -100%;
+}
+
+.content {
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+}
+
+.padding {
+  padding: 24px;
+}
