@@ -1,8 +1,8 @@
 :host {
   display: block;
-  border-radius: 12px;
+  border-radius: var(--app-panel-border-radius);
   background: var(--app-panel-bg);
   padding: 16px;
-  box-shadow: 0px 5px 12px rgba(202, 202, 202, 0.15);
+  box-shadow: 0px 5px 16px rgba(193, 193, 193, 0.29);
   color: var(--app-text-1);
 }

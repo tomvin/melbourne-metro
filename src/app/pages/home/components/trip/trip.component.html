@@ -1,0 +1,13 @@
+<div class="container">
+  <div class="status">
+    <div class="status__green"></div>
+  </div>
+  <div class="trip">
+    <div class="trip__location-container">
+      <span class="trip__location-name">{{ trip.startingLocation.name }}</span>
+      <ion-icon mode="md" class="trip__icon" name="arrow-forward"></ion-icon>
+      <span class="trip__location-name">{{ finalDestinationName }}</span>
+    </div>
+    <div class="trip__time-remaining">Train in 5 minutes at {{ timeToNext | date: 'HH:mm' }}</div>
+  </div>
+</div>

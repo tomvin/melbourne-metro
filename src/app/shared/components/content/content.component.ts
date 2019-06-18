@@ -7,7 +7,8 @@ import { Component, OnInit, Input } from '@angular/core';
 })
 export class ContentComponent implements OnInit {
   @Input() padding: boolean = false;
-  
+  @Input() background: 'city' | 'none' = 'none';
+
   constructor() { }
 
   ngOnInit() {}

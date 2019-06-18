@@ -7,6 +7,7 @@ import { SharedModule } from '../../shared/shared.module';
 
 import { HomePage } from './home.page';
 import { WelcomePanelComponent } from './components/welcome-panel/welcome-panel.component';
+import { TripComponent } from './components/trip/trip.component';
 
 @NgModule({
   imports: [
@@ -21,6 +22,6 @@ import { WelcomePanelComponent } from './components/welcome-panel/welcome-panel.
       }
     ])
   ],
-  declarations: [HomePage, WelcomePanelComponent]
+  declarations: [HomePage, WelcomePanelComponent, TripComponent]
 })
 export class HomePageModule {}

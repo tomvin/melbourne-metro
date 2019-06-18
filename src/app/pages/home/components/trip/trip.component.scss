@@ -1,0 +1,46 @@
+.container {
+  display: flex;
+  align-items: center;
+}
+
+.status {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-right: 24px;
+  margin-left: 16px;
+
+  &__green {
+    height: 14px;
+    width: 14px;
+    border-radius: 50%;
+    border: 3px solid #2ED573;
+  }
+}
+
+.trip {
+
+  &__location-container {
+    // display: flex;
+    // align-items: center;
+  }
+
+  &__location-name {
+    margin-right: 8px;
+    display: inline-block;
+    vertical-align: middle;
+  }
+
+  &__icon {
+    margin-right: 8px;
+    color: var(--app-grey-1);
+    display: inline-block;
+    vertical-align: middle;
+  }
+
+  &__time-remaining {
+    margin-top: 4px;
+    font-size: 14px;
+    color: var(--app-grey-1);
+  }
+}

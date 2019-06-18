@@ -9,11 +9,11 @@
 .background {
   position: absolute;
   bottom: 0px;
-  min-width: 300%;
+  min-width: 200%;
   min-height: 40%;
   opacity: .2;
   max-width: unset;
-  margin: 0 -100%;
+  margin: 0 -50%;
 }
 
 .content {
@@ -22,8 +22,9 @@
   right: 0;
   top: 0;
   bottom: 0;
+  overflow-y: auto;
 }
 
 .padding {
-  padding: 24px;
+  padding: 0 24px 24px;
 }

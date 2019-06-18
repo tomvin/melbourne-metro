@@ -1,12 +1,17 @@
 <app-header title="My Trips"></app-header>
 <ion-content>
-  <app-content [padding]="true">
-    <app-welcome-panel></app-welcome-panel>
+  <app-content background="city" [padding]="true" class="content">
+    <app-welcome-panel @item class="welcome-panel"></app-welcome-panel>
+    <ng-container *ngIf="(trips$ | async) as trips">
+      <ng-container *ngIf="trips.length > 0; else welcomePanel">
+        <div @list>
+          <app-panel @item class="trip" *ngFor="let trip of trips">
+            <app-trip [trip]="trip"></app-trip>
+          </app-panel>
+        </div>
+      </ng-container>
+      <ng-template #welcomePanel>
+      </ng-template>
+    </ng-container>
   </app-content>
 </ion-content>
-
-<ion-footer no-border>
-  <ion-toolbar>
-    
-  </ion-toolbar>
-</ion-footer>

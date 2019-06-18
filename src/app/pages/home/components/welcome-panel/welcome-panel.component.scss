@@ -1,5 +1,14 @@
+:host {
+  display: block;
+  position: relative;
+}
+
 .welcome-panel {
   text-align: center;
+
+  .ripple {
+    border-radius: var(--app-panel-border-radius);
+  }
 }
 
 .title {
@@ -8,4 +17,10 @@
 
 .sub-title {
   color: var(--app-grey-1);
+  font-size: 14px;
+}
+
+.icon {
+  margin-top: 16px;
+  margin-bottom: 8px;
 }
